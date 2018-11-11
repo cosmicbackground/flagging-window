@@ -1,3 +1,6 @@
+#VENTANA
+
+
 from Tkinter import *
 
 def do_nothing():
@@ -111,7 +114,9 @@ root.mainloop()
 
 
 
-
+#Esta parte llama la base datos y genera un plot con los parametros estipulados.
+La idea es llamar un script asi desde CASA. La cuestion es enlazar los botones con 
+los comandos dedicados que habria que realizar.
 
 ms.open ('3c391_ctm_mosaic_10s_spw0.ms')
 staql={'field':'0', 'spw':'0'}
